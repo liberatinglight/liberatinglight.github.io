@@ -1,0 +1,112 @@
+﻿html {
+	background: url(sunlight.jpeg) center center fixed;
+	background-repeat： repeat-y !important;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background: url(sunlight.jpeg) center center fixed;
+  background-repeat： repeat-y !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.p {
+    padding:15px;
+    text-align:justify;
+    background-color: #eeeeee;
+    opacity:1;
+}
+
+.jumbo-special {  
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.514;
+  color: inherit;
+  background-color: #eeeeee;
+  opacity: .75; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+  filter: alpha(opacity=75); /* IE lt 8 */
+  -ms-filter: "alpha(opacity=75)"; /* IE 8 */
+  -khtml-opacity: .75; /* Safari 1.x */
+  -moz-opacity: .75; /* FF lt 1.5, Netscape */
+}
+
+.jumbo-light {  
+  padding: 30px;
+  margin-bottom: 30px;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+  opacity: .75; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+  filter: alpha(opacity=75); /* IE lt 8 */
+  -ms-filter: "alpha(opacity=75)"; /* IE 8 */
+  -khtml-opacity: .75; /* Safari 1.x */
+  -moz-opacity: .75; /* FF lt 1.5, Netscape */
+}
+
+.navbar-inverse-header {
+  background-color: #f2f2f2;
+  border-color: #999999;  
+  opacity: .85; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+  filter: alpha(opacity=85); /* IE lt 8 */
+  -ms-filter: "alpha(opacity=85)"; /* IE 8 */
+  -khtml-opacity: .85; /* Safari 1.x */
+  -moz-opacity: .85; /* FF lt 1.5, Netscape */
+}
+
+.navbar-inverse-footer {
+  background-color: #f2f2f2;
+  border-color: #999999;
+  padding:10px;
+  opacity: .75; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+  filter: alpha(opacity=75); /* IE lt 8 */
+  -ms-filter: "alpha(opacity=75)"; /* IE 8 */
+  -khtml-opacity: .75; /* Safari 1.x */
+  -moz-opacity: .75; /* FF lt 1.5, Netscape */
+}
+
+.headliner {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.sermon {
+  padding: 30px;
+  margin-bottom: 30px;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+  opacity: .75; /* Standard: FF gt 1.5, Opera, Safari, CSS3 */
+  filter: alpha(opacity=75); /* IE lt 8 */
+  -ms-filter: "alpha(opacity=75)"; /* IE 8 */
+  -khtml-opacity: .75; /* Safari 1.x */
+  -moz-opacity: .75; /* FF lt 1.5, Netscape */
+}

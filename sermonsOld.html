@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Sermons";
+}
+
+<div class="jumbo-light">
+
+
+    <h2>@ViewBag.Title</h2>
+    <h3>@ViewBag.Message</h3>
+
+    <p>
+        <a href="@Url.Action("GetSermon", "Sermons", new { id = 1 })">You Don't Need Church</a><br />
+        <a href="@Url.Action("GetSermon", "Sermons", new { id = 2 })">Make The Truth Your Own</a><br />
+        <a href="@Url.Action("GetSermon", "Sermons", new { id = 3 })">You Can Only Change Yourself</a><br />
+        <a href="@Url.Action("GetSermon", "Sermons", new { id = 4 })">Saul of Tarsus</a><br />
+        <a href="@Url.Action("GetSermon", "Sermons", new { id = 5 })">Defining God</a><br />
+        <a href="@Url.Action("GetSermon", "Sermons", new { id = 6 })">Internal Struggle</a><br />
+        <a href="@Url.Action("GetSermon", "Sermons", new { id = 7 })">Karma</a><br />
+        <a href="@Url.Action("GetSermon", "Sermons", new { id = 8 })">The Multipathed Destination</a><br />
+</p>
+
+</div>
